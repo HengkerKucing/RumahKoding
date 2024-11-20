@@ -50,7 +50,9 @@ export default function LessonPage() {
               <Link className="text-sm font-medium hover:text-primary dark:hover:text-primary-400 transition-colors" href="#">
                 Diskusi
               </Link>
-              <Button variant="outline" className="text-sm w-full">Masuk</Button>
+              <Button variant="outline" className="text-sm w-full">
+                <Link href="/auth-forms">Masuk</Link>
+              </Button>
             </nav>
           </SheetContent>
         </Sheet>

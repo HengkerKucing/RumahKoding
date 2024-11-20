@@ -89,10 +89,12 @@ export default function TutorialPage() {
           <SheetContent side="right" className="w-[80%] sm:w-[350px]">
             <nav className="flex flex-col space-y-4 mt-6">
               <Link className="text-lg font-medium hover:text-primary transition-colors" href="/">Beranda</Link>
-              <Link className="text-lg font-medium text-primary" href="#">Tutorial</Link>
+              <Link className="text-lg font-medium text-primary" href="start-learning">Tutorial</Link>
               <Link className="text-lg font-medium hover:text-primary transition-colors" href="#">Proyek</Link>
               <Link className="text-lg font-medium hover:text-primary transition-colors" href="#">Diskusi</Link>
-              <Button className="w-full mt-4">Masuk</Button>
+              <Button variant="outline" className="text-sm w-full">
+                <Link href="/auth-forms">Masuk</Link>
+              </Button>
             </nav>
           </SheetContent>
         </Sheet>

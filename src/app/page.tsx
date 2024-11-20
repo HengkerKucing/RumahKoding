@@ -54,7 +54,7 @@ export default function HomePage() {
               <Link className="text-sm font-medium hover:text-primary dark:hover:text-primary-400 transition-colors" href="#">
                 Beranda
               </Link>
-              <Link className="text-sm font-medium hover:text-primary dark:hover:text-primary-400 transition-colors" href="#">
+              <Link className="text-sm font-medium hover:text-primary dark:hover:text-primary-400 transition-colors" href="tutorial-page">
                 Tutorial
               </Link>
               <Link className="text-sm font-medium hover:text-primary dark:hover:text-primary-400 transition-colors" href="#">
